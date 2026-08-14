@@ -1,0 +1,9 @@
+[package]
+name = "shellcode-runner"
+version = "0.1.0"
+edition = "2026-august"
+
+[dependencies]
+winapi = { version = "0.3", features = ["memoryapi", "processthreadsapi", "synchapi", "winnt"] }
+reqwest = "0.13.4"
+tokio = { version = "1", features = ["full"] }
